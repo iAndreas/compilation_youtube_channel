@@ -12,7 +12,7 @@ Start a fully automated youtube that can scrape content on tiktok, edit a compil
 
 4. Create a Project with the Youtube API: https://developers.google.com/youtube/v3/quickstart/python
 Be sure to follow the instructions carefully, as it won't work if you don't do this right.
-Download your OATH file and name it as "googleAPI.json" in the main project folder.
+Download your OATH file and name it as "secret.json" in the main project folder.
 
 5. Run `python3 main.py` in your computer terminal (terminal or cmd). You have to sign in to your Youtube Account through the tab opened by the script. If a new tab doesn't open, copy the link generated in the script, paste it in your browser, and then sign into your Google account. Then paste the authentication code you get back into your terminal. It will then say "Starting Scraping" if it all goes ok.
 

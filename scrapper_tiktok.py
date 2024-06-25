@@ -79,7 +79,7 @@ def scrapeVideos(output_folder):
 
     # If you get a tiktok CAPTCHA, change the timeout here
     # to 60 seconds, just enough time for you to complete the captcha yourself.
-    time.sleep(1)
+    time.sleep(3)
 
     scroll_pause_time = 1
     screen_height = driver.execute_script("return window.screen.height;")
